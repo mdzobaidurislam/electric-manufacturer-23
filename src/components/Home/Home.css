@@ -1,0 +1,112 @@
+.bg-gradient {
+    background: #c7ecff;
+    background: -moz-linear-gradient(top, #c7ecff 0%, #f9efff 100%);
+    background: -webkit-linear-gradient(top, #c7ecff 0%, #f9efff 100%);
+    background: linear-gradient(to bottom, #c7ecff 0%, #f9efff 100%);
+}
+
+.counter-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter-icon {
+    width: 100px;
+    height: 100px;
+    float: left;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px 40px 8px 40px;
+    box-shadow: 0 3.4px 2.7px -30px rgba(0, 0, 0, 0.059), 0 8.2px 8.9px -30px rgba(0, 0, 0, 0.071), 0 25px 40px -30px rgba(0, 0, 0, 0.2);
+}
+
+.counter-number-b {
+    margin: 0 0 0 20px;
+    float: left;
+    text-align: left;
+}
+
+.counter-number-b span {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #050748;
+    display: inline-block;
+}
+
+.counter-number-b p {
+    margin: 10px 0 0 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* why choose us  */
+.why-choose-lg::before {
+    content: "";
+    background: url('https://buildcompany.netlify.app/images/shape/dot_bg.png');
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+.text-l {
+    text-align: left;
+}
+
+.same-hedding>span {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #e60072;
+    margin: 0 0 15px 0;
+    letter-spacing: .5px;
+}
+
+.same-hedding h2 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+/* 
+.same-hedding p {
+    font-size: 16px;
+    line-height: 28px;
+} */
+
+.media {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.why-choose-box .media-icon {
+    padding: 10px;
+    font-size: 42px;
+    color: #3a426e;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.user-info {
+    margin: 0 0 0 20px;
+}
+
+/* .media-body h5 {
+    font-size: 25px;
+    line-height: 30px;
+} */
+
+/* .media-body p {
+    font-size: 20px;
+    line-height: 30px;
+} */

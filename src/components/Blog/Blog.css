@@ -1,0 +1,13 @@
+.blog_section {
+    position: relative;
+}
+
+.blog_section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    background: #ffcc0026;
+    z-index: -1;
+}
